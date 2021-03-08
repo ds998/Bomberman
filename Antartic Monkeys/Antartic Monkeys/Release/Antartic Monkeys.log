@@ -1,0 +1,28 @@
+﻿  aes.c
+  AI.c
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\ai.c(55): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\ai.c(56): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\ai.c(68): warning C4101: 'l': unreferenced local variable
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\ai.c(159): warning C4101: 'i': unreferenced local variable
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\ai.c(351): warning C4047: 'function': 'int' differs in levels of indirection from 'player *'
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\ai.c(351): warning C4024: 'plant_bomb': different types for formal and actual parameter 4
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\ai.c(353): warning C4013: 'safety' undefined; assuming extern returning int
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\ai.c(414): warning C4244: 'initializing': conversion from 'double' to 'char', possible loss of data
+  Logic.c
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\logic.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  MapCreation.c
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\mapcreation.c(27): warning C4090: 'function': different 'const' qualifiers
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\mapcreation.c(79): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\mapcreation.c(121): warning C4101: 'move': unreferenced local variable
+  novikoncept.c
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\novikoncept.h(1): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Redovi.c
+  Score.c
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\score.c(37): warning C4133: '=': incompatible types - from 'table *' to 'uint8_t *'
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\score.c(43): warning C4133: '=': incompatible types - from 'uint8_t *' to 'table *'
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\score.c(41): warning C4477: 'fscanf' : format string '%u' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'uint8_t *'
+  c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\score.c(41): note: consider using '%hhu' in the format string
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\score.c(73): warning C4133: 'function': incompatible types - from 'table *' to 'uint8_t *'
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\score.c(75): warning C4133: '=': incompatible types - from 'table *' to 'uint8_t *'
+  Source.c
+c:\users\stevank\desktop\za tamaru(deluxe)\antartic monkeys\antartic monkeys\novikoncept.h(1): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory

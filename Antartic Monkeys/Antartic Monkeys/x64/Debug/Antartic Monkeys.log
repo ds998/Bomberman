@@ -1,0 +1,39 @@
+﻿Logic.obj : error LNK2019: unresolved external symbol SDL_AddTimer referenced in function plant_bomb
+Logic.obj : error LNK2019: unresolved external symbol SDL_RemoveTimer referenced in function explode
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_MapRGB referenced in function showmenu
+Source.obj : error LNK2001: unresolved external symbol SDL_MapRGB
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_CreateRGBSurface referenced in function showmenu
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function showmenu
+Source.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_FillRect referenced in function showmenu
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_UpperBlit referenced in function showmenu
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function processEvents
+Source.obj : error LNK2001: unresolved external symbol SDL_DestroyWindow
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_GetKeyboardState referenced in function processEvents
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function processEvents
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function showmenu
+Source.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function doRender
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function doRender
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function doRender
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function doRender
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function showmenu
+novikoncept.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function showmenu
+Source.obj : error LNK2001: unresolved external symbol SDL_Delay
+novikoncept.obj : error LNK2019: unresolved external symbol TTF_RenderText_Solid referenced in function showmenu
+Source.obj : error LNK2019: unresolved external symbol SDL_SetColorKey referenced in function game
+Source.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function game
+Source.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function game
+Source.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function game
+Source.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function game
+Source.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function game
+Source.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function game
+Source.obj : error LNK2019: unresolved external symbol TTF_Init referenced in function game
+Source.obj : error LNK2019: unresolved external symbol TTF_OpenFont referenced in function game
+Source.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function game
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol WinMain referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\SDL\posle promene\SDL2-2.0.8\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SDL\posle promene\SDL2-2.0.8\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SDL\posle promene\SDL2-2.0.8\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SDL\posle promene\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SDL\posle promene\Antartic Monkeys\x64\Debug\Antartic Monkeys.exe : fatal error LNK1120: 29 unresolved externals
